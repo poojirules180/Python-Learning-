@@ -1,0 +1,6 @@
+This is a sample text for
+Poojith.
+He is learning Python.
+Python is a very powerful tool.
+It can be used for a lot of thing.
+Python is not only popular for web developement but also used in data science.

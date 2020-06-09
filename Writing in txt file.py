@@ -36,4 +36,11 @@ for line in words:
     if 'Python' in line:
         pythoninText = pythoninText + 1
 numberofPython = print("Number of times Python was mentioned: ", pythoninText)
-print(numberofPython)
+print(str(numberofPython))
+file1 = open("results.txt", "w")
+file1.write(str.numberofWord)
+file1.write(numberofLines)
+file1.write(numberofSpaces)
+file1.write(numberofChar)
+file1.write(numberofPython)
+file1.close()

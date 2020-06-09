@@ -7,7 +7,6 @@ data = readFile.read()
 words = data.split()
 numberofWord = ('Number of words in text file :', str(len(words)))
 print(numberofWord)
-
 #code for number of lines
 lines = 0
 with open("poojith.txt", 'r') as f:
@@ -38,10 +37,4 @@ for line in words:
         pythoninText = pythoninText + 1
 numberofPython = ("Number of times Python was mentioned: ", str(pythoninText))
 print(numberofPython)
-file1 = open("results.txt", "w")
-file1.write(w)
-file1.write(l)
-file1.write(s)
-file1.write(c)
-file1.write(p)
-file1.close()
+

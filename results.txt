@@ -1,0 +1,5 @@
+Number of words in text file : 40
+Total number of lines is: 6
+The number of blank spaces is:  39
+Number of characters in the file:  203
+Number of times Python was mentioned:  3

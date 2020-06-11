@@ -1,5 +1,6 @@
 import turtle
 bars = turtle.Turtle()
+bars.color("blue")
 data = [100,120,144,173] #increments of 20%
 def turtleProg(height):
     bars.left(90)         #face upward

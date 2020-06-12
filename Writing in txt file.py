@@ -48,3 +48,23 @@ file1.write(s)
 file1.write(c)
 file1.write(p)
 file1.close()
+
+
+
+
+student = open("student.txt", "a")
+student.write(name)
+student.write(homework)
+student.write(exam)
+student.write(name2)
+student.write(homework2)
+student.write(exam2)
+student.write(name3)
+student.write(homework3)
+student.write(exam3)
+student.write(avg1)
+student.write(avg2)
+student.write(avg3)
+student.write(examAvg1)
+student.write(examAvg2)
+student.write(examAvg3)

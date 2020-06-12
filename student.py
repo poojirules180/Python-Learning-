@@ -58,5 +58,5 @@ if examMax == exam2Avg:
     examAvg2 = print("Student with best Exam score is : Surya")
 if examMax == exam3Avg:
     examAvg3 = print("Student with best Exam score is : Renuka")
-    
+
 

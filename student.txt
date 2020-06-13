@@ -1,1 +1,12 @@
-['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']Homework average of Poojith = 87.74['poojith', 'surya', 'renuka']Homework average of Poojith = 87.74
+
+poojith
+The average homework score is : 87.74
+The average exam score is : 85.6
+surya
+The average homework score is : 75.2
+The average exam score is : 91.6
+renuka
+The average homework score is : 79.6
+The average exam score is : 91.2
+Student with best homework score is : Poojith
+Student with best Exam score is : Surya

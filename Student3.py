@@ -30,4 +30,4 @@ for eachItem in students:
     dictionary.update({"poojith": homeAvg})
     dictionary.update({"surya": homeAvg})
     dictionary.update({"renuka": homeAvg})
-    print(dictionary)
+print(dictionary[0:1])

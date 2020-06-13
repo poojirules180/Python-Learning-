@@ -1,0 +1,1 @@
+['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']['poojith', 'surya', 'renuka']Homework average of Poojith = 87.74['poojith', 'surya', 'renuka']Homework average of Poojith = 87.74

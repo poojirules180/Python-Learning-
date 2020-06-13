@@ -1,3 +1,4 @@
+student = open("student.txt", "a")
 poojith = {
     "name" : "poojith",
     "homework" : [90, 99.7, 85, 70, 94],
@@ -25,7 +26,7 @@ def mergeStudents(poojith, surya,renuka):
 students = mergeStudents(poojith, surya, renuka)
 #All names
 if "name" in students:
-    print(students["name"])
+    student.write(str(students["name"]))
 #Poojith's Avg Homework score
 if "homework" in students:
     list = list(students.items())
@@ -33,7 +34,7 @@ if "homework" in students:
     y = x[1]
     poojithHome = y[0]
     homeAvg = sum(poojithHome) / len (poojithHome)
-    homework = (print("Homework average of Poojith = ", homeAvg))
+    student.write("Homework average of Poojith = " + str(homeAvg) + "\n")
 #Poojith's Avg Exam score
 if "exam" in students:
     x = (list[2])

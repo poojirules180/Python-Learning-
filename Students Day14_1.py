@@ -24,28 +24,29 @@ students.append(renuka)
 
 resultsHome = {}
 resultsExam = {}
-studentsName = []
 Dict = {}
 for eachItem in students:
     student.write(eachItem["name"] + "\n")
-    studentsName.append(eachItem["name"])
     homeAvg = (sum(eachItem["homework"]) / len(eachItem["homework"]))
     student.write(f'The average homework score is : {homeAvg}' + "\n")
     examAvg = (sum(eachItem["exam"]) / len(eachItem["exam"]))
     student.write(f'The average exam score is : {examAvg}' +  "\n")
     result_homework_key = str(eachItem["name"])
-    result_exam_key = str(eachItem["name"]) + '_exam_average_score'
+    result_exam_key = str(eachItem["name"])
     resultsHome.update({ result_homework_key : homeAvg})
     resultsExam.update({ result_exam_key : examAvg})
 
-
-homeValues = list(resultsHome.values())
-examValues = list(resultsExam.values())
-maxScore = max(homeValues)
-max_score_exam = max(examValues)
-for everyNumber in homeValues:
-    if maxScore == everyNumber:
-        print("Student with best homework score is : "  "\n")
-for everyNumber in examValues:
-    if max_score_exam == everyNumber:
-        print("Student with best exam score is : "  "\n")
+max_homework_score = 0
+max_homework_student_name = "unknown"
+for everyKey, everyValue in resultsHome.items():
+    if everyValue > max_homework_score:
+        max_homework_score = everyValue
+        max_homework_student_name = everyKey
+student.write(f'The student with the highest homework score is {max_homework_student_name}. Their score was {max_homework_score}' + '\n')
+max_exam_score = 0
+max_exam_student_name = "unknown"
+for everyKey, everyValue in resultsExam.items():
+    if everyValue > max_exam_score:
+        max_exam_score = everyValue
+        max_exam_student_name = everyKey
+student.write(f'The student with the highest homework score is {max_exam_student_name}. Their score was {max_exam_score}')

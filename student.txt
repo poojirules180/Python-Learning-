@@ -7,3 +7,5 @@ The average exam score is : 91.6
 renuka
 The average homework score is : 79.6
 The average exam score is : 91.2
+The student with the highest homework score is poojith. Their score was 87.74
+The student with the highest homework score is surya. Their score was 91.6

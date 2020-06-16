@@ -1,4 +1,3 @@
-
 poojith
 The average homework score is : 87.74
 The average exam score is : 85.6
@@ -8,5 +7,3 @@ The average exam score is : 91.6
 renuka
 The average homework score is : 79.6
 The average exam score is : 91.2
-Student with best homework score is : Poojith
-Student with best Exam score is : Surya

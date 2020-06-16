@@ -24,6 +24,7 @@ students.append(renuka)
 
 results = {}
 
+
 for eachItem in students:
     student.write(eachItem["name"] + "\n")
     homeAvg = (sum(eachItem["homework"]) / len(eachItem["homework"]))
@@ -33,7 +34,7 @@ for eachItem in students:
     result_homework_key = str(eachItem["name"]) + '_homework_average_score'
     result_exam_key = str(eachItem["name"]) + '_exam_average_score'
     results.update({ result_homework_key : homeAvg  })
-    results.update({ result_exam_key : examAvg})
+    results.update({ result_exam_key : examAvg}) 
 
 homeMax = max(results["poojith_homework_average_score"], results["surya_homework_average_score"], results["renuka_homework_average_score"])
 if homeMax == results["poojith_homework_average_score"]:
